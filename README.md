@@ -2,7 +2,7 @@
 The application is build for nooro backend task
 
 
-A full-stack Todo List application built with **Next.js (App Router)**, **Express.js**, **Prisma**, **MySQL**, **TypeScript**, and **Tailwind CSS**.
+Backend application built with **Express.js**, **Prisma**, **MySQL**, **TypeScript**.
 
 ---
 
@@ -39,7 +39,7 @@ Replace:
 - `PASSWORD` → Your MySQL password  
 - `nooro_todo` → Your database name  
 
-### **4. Run Database Migrations (Prisma)** (If migrations are not present in prisma directory)
+### **4. Run Database Migrations (Prisma)**
 ```sh
 npx prisma migrate dev --name init
 ```
@@ -48,7 +48,7 @@ npx prisma migrate dev --name init
 ```sh
 npm run start
 ```
-Your backend should now be running on `http://localhost:5000`
+Backend should now be running on `http://localhost:5000`
 
 ---
 
@@ -75,10 +75,3 @@ Your backend should now be running on `http://localhost:5000`
   ├── package.json
 
 ```
-
-### **1. Run Production Server**
-```sh
-npm run start
-```
-
-
